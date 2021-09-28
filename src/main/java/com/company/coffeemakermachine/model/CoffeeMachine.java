@@ -2,6 +2,9 @@ package com.company.coffeemakermachine.model;
 
 import java.util.Map;
 
+/**
+ * Model class for coffee machine
+ */
 public class CoffeeMachine {
 
     private Outlet outlets;
@@ -10,6 +13,9 @@ public class CoffeeMachine {
 
     private Map<String, Map<String, Integer>> beverages;
 
+    /**
+     * Default constructor
+     */
     public CoffeeMachine() {
     }
 

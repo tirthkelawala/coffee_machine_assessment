@@ -1,5 +1,8 @@
 package com.company.coffeemakermachine.model;
 
+/**
+ * Model class to show ingredient and its status
+ */
 public class IngredientStatus {
 
     private String ingredient;

@@ -1,5 +1,8 @@
 package com.company.coffeemakermachine.model;
 
+/**
+ * Model class for number of outlet
+ */
 public class Outlet {
 
     private int count_n;

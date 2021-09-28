@@ -1,9 +1,15 @@
 package com.company.coffeemakermachine.model;
 
+/**
+ * Model class for coffee machine initializer
+ */
 public class CoffeeMachineInitializer {
 
     private CoffeeMachine machine;
 
+    /**
+     * Default constructor
+     */
     public CoffeeMachineInitializer() {
     }
 

@@ -18,7 +18,7 @@ public class CoffeeMakerMachineApplication {
     /**
      * Main class
      * @param args Arguments
-     * @throws IOException 
+     * @throws IOException
      */
     public static void main(String[] args) throws IOException {
         ClassLoader classLoader = CoffeeMakerMachineApplication.class.getClassLoader();
@@ -31,8 +31,10 @@ public class CoffeeMakerMachineApplication {
 
         CoffeeMachineUtil coffeeMachineUtil = new CoffeeMachineUtil();
 
+        // set the initial ingredients
         coffeeMachineUtil.initialIngredients(coffeeMachineInitializer.getMachine().getTotal_items_quantity());
 
+        // make beverages out of the ingredients present
         coffeeMachineUtil.makeBeverages(coffeeMachineInitializer.getMachine().getBeverages());
 
     }
